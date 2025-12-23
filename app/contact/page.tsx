@@ -40,8 +40,10 @@ export default function ContactPage() {
                 Contact Us
               </h1>
               <p className="mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-                Have a project in mind? Let&apos;s discuss how we can help bring it to life.
-                Fill out the form below and we&apos;ll get back to you as soon as possible.
+                Interested in our IoT infrastructure, embedded systems, or renewable energy 
+                management solutions? Let&apos;s discuss how we can help power your clean 
+                energy initiatives. Fill out the form below and we&apos;ll get back to you 
+                as soon as possible.
               </p>
             </div>
 
@@ -141,7 +143,7 @@ export default function ContactPage() {
                     Email
                   </h3>
                   <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-                    info@tiogatech.com
+                    info@tiogatechnologies.com
                   </p>
                 </div>
                 <div>
@@ -149,7 +151,7 @@ export default function ContactPage() {
                     Business Hours
                   </h3>
                   <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-                    Monday - Friday: 9:00 AM - 6:00 PM
+                    Monday - Friday: 9:00 AM - 6:00 PM GMT
                   </p>
                 </div>
               </div>

@@ -37,7 +37,8 @@ export default function Contact() {
               Get in Touch
             </h2>
             <p className="mt-2 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-              Have a project in mind? Let&apos;s discuss how we can help bring it to life.
+              Interested in our IoT infrastructure, embedded systems, or renewable energy solutions? 
+              Let&apos;s discuss how we can help power your clean energy initiatives.
             </p>
           </div>
           <form onSubmit={handleSubmit} className="mt-16 sm:mt-20">

@@ -21,10 +21,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-lg font-bold text-zinc-900 dark:text-zinc-50">TioGaTech</h3>
+            <h3 className="text-lg font-bold text-zinc-900 dark:text-zinc-50">Tioga Technologies Ltd</h3>
             <p className="mt-4 text-sm text-zinc-600 dark:text-zinc-400">
-              Empowering businesses with cutting-edge technology solutions.
-              We deliver innovative services to help your business thrive in the digital age.
+              IoT infrastructure and embedded systems company developing core infrastructure 
+              around IoT, embedded systems, and intelligent renewable energy solutions. 
+              Powering Africa&apos;s clean energy transition.
             </p>
           </div>
 
@@ -65,7 +66,7 @@ export default function Footer() {
 
         <div className="mt-8 border-t border-zinc-200 pt-8 dark:border-zinc-800">
           <p className="text-center text-sm text-zinc-600 dark:text-zinc-400">
-            © {currentYear} TioGaTech. All rights reserved.
+            © {currentYear} Tioga Technologies Ltd. All rights reserved.
           </p>
         </div>
       </div>

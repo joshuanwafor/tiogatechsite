@@ -13,14 +13,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TioGaTech - Modern Technology Solutions for Your Business",
+  title: "Tioga Technologies Ltd - IoT Infrastructure & Renewable Energy Solutions",
   description:
-    "Empowering businesses with cutting-edge technology solutions. Web development, cloud services, consulting, and more.",
-  keywords: ["web development", "cloud solutions", "technology consulting", "business solutions"],
-  authors: [{ name: "TioGaTech" }],
+    "IoT infrastructure and embedded systems company developing intelligent renewable energy management platforms to power Africa's clean energy transition.",
+  keywords: [
+    "IoT infrastructure",
+    "embedded systems",
+    "renewable energy",
+    "clean energy",
+    "energy management",
+    "Africa",
+    "smart grid",
+  ],
+  authors: [{ name: "Tioga Technologies Ltd" }],
   openGraph: {
-    title: "TioGaTech - Modern Technology Solutions",
-    description: "Empowering businesses with cutting-edge technology solutions.",
+    title: "Tioga Technologies Ltd - Renewable Energy Management Platforms",
+    description: "Powering Africa's clean energy transition through IoT infrastructure and intelligent renewable energy solutions.",
     type: "website",
   },
 };

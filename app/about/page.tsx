@@ -4,8 +4,8 @@ import Footer from "../components/Footer";
 import Button from "../components/Button";
 
 export const metadata: Metadata = {
-  title: "About Us - TioGaTech",
-  description: "Learn more about TioGaTech and our mission to empower businesses with technology.",
+  title: "About Us - Tioga Technologies Ltd",
+  description: "Learn more about Tioga Technologies and our mission to power Africa's clean energy transition.",
 };
 
 export default function AboutPage() {
@@ -16,58 +16,81 @@ export default function AboutPage() {
         <section className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl dark:text-zinc-50">
-              About TioGaTech
+              About Tioga Technologies
             </h1>
             <div className="mt-10 space-y-6 text-lg leading-8 text-zinc-600 dark:text-zinc-400">
               <p>
-                At TioGaTech, we are a team of passionate technologists dedicated to helping
-                businesses thrive in the digital age. With years of combined experience in
-                web development, cloud architecture, and technology consulting, we bring
-                expertise and innovation to every project.
+                Tioga Technologies Ltd is an IoT infrastructure and embedded systems company 
+                specializing in the development of core infrastructure around IoT, embedded systems, 
+                and intelligent renewable energy solutions. We are at the forefront of cutting-edge 
+                next-generation renewable energy management platforms designed to power Africa&apos;s 
+                clean energy transition.
               </p>
-              <p>
-                Our mission is simple: to empower businesses with cutting-edge technology
-                solutions that drive growth, efficiency, and success. We believe that every
-                business, regardless of size, deserves access to world-class technology services.
-              </p>
+              
               <h2 className="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mt-12">
-                Our Values
-              </h2>
-              <ul className="list-disc list-inside space-y-3 ml-4">
-                <li>
-                  <strong className="text-zinc-900 dark:text-zinc-50">Excellence:</strong>{" "}
-                  We strive for excellence in everything we do, delivering high-quality solutions
-                  that exceed expectations.
-                </li>
-                <li>
-                  <strong className="text-zinc-900 dark:text-zinc-50">Innovation:</strong>{" "}
-                  We stay at the forefront of technology, constantly learning and adopting
-                  the latest tools and best practices.
-                </li>
-                <li>
-                  <strong className="text-zinc-900 dark:text-zinc-50">Partnership:</strong>{" "}
-                  We build long-term relationships with our clients, working collaboratively
-                  to achieve their goals.
-                </li>
-                <li>
-                  <strong className="text-zinc-900 dark:text-zinc-50">Integrity:</strong>{" "}
-                  We conduct business with honesty, transparency, and respect for our clients
-                  and team members.
-                </li>
-              </ul>
-              <h2 className="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mt-12">
-                Why Choose Us
+                Our Mission
               </h2>
               <p>
-                What sets us apart is our commitment to understanding your unique business needs
-                and delivering tailored solutions that make a real impact. We don&apos;t just
-                build technology—we build relationships and help you achieve your vision.
+                Our mission is to accelerate Africa&apos;s transition to clean, renewable energy 
+                through innovative IoT infrastructure and intelligent energy management solutions. 
+                We develop scalable, reliable systems that enable efficient distribution and 
+                management of renewable energy resources across the continent.
+              </p>
+
+              <h2 className="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mt-12">
+                What We Do
+              </h2>
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-semibold text-zinc-900 dark:text-zinc-50 mb-2">
+                    IoT Infrastructure Development
+                  </h3>
+                  <p>
+                    We build robust, scalable IoT infrastructure that connects renewable energy 
+                    systems, enabling real-time monitoring, data collection, and intelligent 
+                    decision-making. Our infrastructure solutions are designed to handle the 
+                    unique challenges of renewable energy distribution in Africa.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-zinc-900 dark:text-zinc-50 mb-2">
+                    Embedded Systems Engineering
+                  </h3>
+                  <p>
+                    Our team develops custom embedded systems for energy management applications, 
+                    including monitoring devices, control systems, and intelligent sensors. These 
+                    systems are optimized for reliability, efficiency, and long-term operation 
+                    in diverse environmental conditions.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-zinc-900 dark:text-zinc-50 mb-2">
+                    Renewable Energy Management Platforms
+                  </h3>
+                  <p>
+                    We create next-generation platforms for managing renewable energy resources, 
+                    optimizing distribution, predicting demand, and ensuring reliable power supply. 
+                    Our intelligent systems help maximize the efficiency and reliability of clean 
+                    energy infrastructure.
+                  </p>
+                </div>
+              </div>
+
+              <h2 className="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mt-12">
+                Our Impact
+              </h2>
+              <p>
+                By developing cutting-edge technology solutions for renewable energy management, 
+                Tioga Technologies is contributing to Africa&apos;s sustainable future. Our 
+                platforms enable more efficient use of renewable resources, reduce energy waste, 
+                and support the continent&apos;s transition away from fossil fuels.
               </p>
               <p>
-                Whether you&apos;re a startup looking to establish your digital presence or an
-                established business seeking to modernize your operations, we have the expertise
-                and passion to help you succeed.
+                We work with energy providers, governments, and organizations across Africa to 
+                deploy intelligent energy management systems that make clean energy more accessible, 
+                reliable, and cost-effective for communities and businesses.
               </p>
+
               <div className="mt-10">
                 <Button href="/contact" variant="primary">
                   Get in Touch
@@ -81,4 +104,3 @@ export default function AboutPage() {
     </>
   );
 }
-
